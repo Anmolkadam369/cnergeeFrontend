@@ -1,0 +1,11 @@
+<h2>Update Task</h2>
+<!-- task-update.component.html -->
+<form (submit)="updateTask()">
+  <label>Title: </label>
+  <input [(ngModel)]="updatedTask.title" name="title" required />
+  <br />
+  <label>Description: </label>
+  <textarea [(ngModel)]="updatedTask.description" name="description" required></textarea>
+  <br />
+  <button type="submit">Update Task</button>
+</form>

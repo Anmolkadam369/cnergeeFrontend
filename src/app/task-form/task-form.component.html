@@ -1,0 +1,9 @@
+<form (submit)="createTask()">
+  <label>Title: </label>
+  <input [(ngModel)]="newTask.title" name="title" required />
+  <br />
+  <label>Description: </label>
+  <textarea [(ngModel)]="newTask.description" name="description" required></textarea>
+  <br />
+  <button type="submit">Create Task</button>
+</form>

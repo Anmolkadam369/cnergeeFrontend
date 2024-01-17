@@ -1,0 +1,23 @@
+/* Add your styles here */
+
+h2 {
+    color: #333; /* Change the color as needed */
+    text-align: center;
+  }
+  
+  div {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add rounded corners */
+    background-color: #f9f9f9; /* Add background color */
+  }
+  
+  h3 {
+    color: #007bff; /* Change the color as needed */
+  }
+  
+  p {
+    font-size: 16px; /* Adjust font size */
+  }
+  
